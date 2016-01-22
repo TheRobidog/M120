@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="158.0" prefWidth="425.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ListView fx:id="lvwSets" layoutX="14.0" layoutY="14.0" prefHeight="127.0" prefWidth="332.0" />
+      <Button fx:id="cmdRefresh" layoutX="354.0" layoutY="14.0" mnemonicParsing="false" onAction="#RefreshSets" text="Refresh" />
+      <Button fx:id="cmdLoad" layoutX="354.0" layoutY="116.0" mnemonicParsing="false" onAction="#LoadSet" prefHeight="25.0" prefWidth="56.0" text="Load" />
+   </children>
+</Pane>

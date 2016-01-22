@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="332.0" prefWidth="460.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="control.registerController">
+   <children>
+      <TextField fx:id="txtUser" layoutX="278.0" layoutY="37.0" />
+      <TextField fx:id="txtEmail" layoutX="278.0" layoutY="70.0" />
+      <TextField fx:id="txtName" layoutX="278.0" layoutY="103.0" />
+      <TextField fx:id="txtFirstname" layoutX="278.0" layoutY="136.0" />
+      <PasswordField fx:id="txtPass" layoutX="278.0" layoutY="205.0" />
+      <Label layoutX="173.0" layoutY="41.0" text="Username" />
+      <Label layoutX="173.0" layoutY="74.0" text="Email" />
+      <Label layoutX="173.0" layoutY="107.0" text="Name" />
+      <Label layoutX="173.0" layoutY="140.0" text="Firstname" />
+      <Label layoutX="173.0" layoutY="209.0" text="Password" />
+      <Label layoutX="173.0" layoutY="241.0" text="Repeat Password" />
+      <PasswordField fx:id="txtPassRepeat" layoutX="278.0" layoutY="237.0" />
+      <Button fx:id="cmdRegister" layoutX="278.0" layoutY="271.0" mnemonicParsing="false" onAction="#RegisterAction" prefHeight="25.0" prefWidth="149.0" text="Register" />
+      <Button fx:id="cmdBacktoLog" layoutX="35.0" layoutY="37.0" mnemonicParsing="false" onAction="#BacktoLogin" text="Back to Login" />
+   </children>
+</Pane>

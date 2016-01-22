@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="293.0" prefWidth="781.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ListView fx:id="lvwCards" layoutX="458.0" layoutY="48.0" prefHeight="231.0" prefWidth="309.0" />
+      <Pane fx:id="pnlCard" layoutX="14.0" layoutY="48.0" prefHeight="231.0" prefWidth="432.0" style="-fx-background-color: black;">
+         <children>
+            <TextArea fx:id="txtQuestion" layoutX="14.0" layoutY="14.0" prefHeight="200.0" prefWidth="200.0" />
+            <TextArea fx:id="txtAnswer" layoutX="218.0" layoutY="14.0" prefHeight="200.0" prefWidth="200.0" />
+         </children>
+      </Pane>
+      <Button fx:id="cmdSearch" layoutX="715.0" layoutY="14.0" mnemonicParsing="false" onAction="#SearchEntry" text="Search" />
+      <TextField fx:id="txtSearch" layoutX="458.0" layoutY="14.0" prefHeight="25.0" prefWidth="245.0" />
+      <Button fx:id="cmdNew" layoutX="357.0" layoutY="14.0" mnemonicParsing="false" onAction="#NewEntry" text="New" />
+      <Button fx:id="cmdSave" layoutX="405.0" layoutY="14.0" mnemonicParsing="false" onAction="#SaveEntry" text="Save" />
+      <Button fx:id="cmdChangeSet" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#ChangeSet" text="Change Set" />
+   </children>
+</Pane>

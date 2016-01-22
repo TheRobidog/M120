@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="649.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="control.cardController">
+   <children>
+      <Button fx:id="cmdEdit" layoutX="447.0" layoutY="320.0" mnemonicParsing="false" onAction="#switchtoEdit" prefHeight="25.0" prefWidth="86.0" text="Edit Cards" />
+      <Pane fx:id="pnlQuestion" layoutX="117.0" layoutY="108.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: black;">
+         <children>
+            <Label fx:id="lblQuestion" alignment="CENTER" layoutX="12.0" layoutY="12.0" prefHeight="178.0" prefWidth="176.0" text="*Empty*" textFill="WHITE" />
+         </children></Pane>
+      <Pane fx:id="pnlAnswer" layoutX="333.0" layoutY="108.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: black;">
+         <children>
+            <Label fx:id="lblAnswer" alignment="CENTER" layoutX="8.0" layoutY="9.0" prefHeight="184.0" prefWidth="183.0" text="*Empty*" textFill="WHITE" />
+         </children></Pane>
+      <Button fx:id="cmdNext" layoutX="543.0" layoutY="196.0" mnemonicParsing="false" onAction="#getNext" text="--&gt;" />
+      <Button fx:id="cmdPrev" layoutX="72.0" layoutY="196.0" mnemonicParsing="false" onAction="#getPrev" text="&lt;--" />
+      <Button fx:id="cmdRand" layoutX="117.0" layoutY="320.0" mnemonicParsing="false" onAction="#getRandom" prefHeight="25.0" prefWidth="86.0" text="Random" />
+      <Label fx:id="lblStatus" alignment="CENTER" layoutX="72.0" layoutY="55.0" prefHeight="38.0" prefWidth="505.0" text="*Empty*">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="33.0" layoutY="196.0" mnemonicParsing="false" text="First" />
+      <Button layoutX="578.0" layoutY="196.0" mnemonicParsing="false" text="Last" />
+   </children>
+</Pane>

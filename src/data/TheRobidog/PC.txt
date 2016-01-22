@@ -1,0 +1,3 @@
+0:Betriebsystem:Operating System
+1:Prozessor:Central Processing Unit (CPU)
+2:Arbeitsspeicher:Random Access Memory (RAM)

@@ -1,0 +1,5 @@
+0:Hallo:Hello
+1:Sein:To be
+2:Ich bin:I am
+3:Leben:Live
+4:Nein:No
